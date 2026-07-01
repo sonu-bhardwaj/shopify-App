@@ -273,7 +273,7 @@ https://announcement-banner-app-yi77.onrender.com
 
 # 💻 GitHub Repository
 
-https://github.com/YOUR_USERNAME/announcement-banner-app
+https://github.com/sonu-bhardwaj/announcement-banner-app
 
 ---
 
@@ -283,7 +283,7 @@ https://github.com/YOUR_USERNAME/announcement-banner-app
 
 GitHub
 
-https://github.com/YOUR_USERNAME
+https://github.com/sonu-bhardwaj
 
 LinkedIn
 
