@@ -1,0 +1,28 @@
+{% assign announcement = shop.metafields.my_app.announcement.value %}
+
+{% if announcement != blank %}
+<div
+  style="
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: red;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    z-index: 9999;
+    font-weight: bold;
+  "
+>
+  {{ announcement }}
+</div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Announcement Banner",
+  "target": "body",
+  "settings": []
+}
+{% endschema %}
