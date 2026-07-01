@@ -1,7 +1,7 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
 client_id = "84dbb6658c0813ee853fa9b1c58662d7"
-application_url = "https://example.com"
+application_url = "https://announcement-banner-app-yi77.onrender.com"
 embedded = true
 name = "announcement-banner-app"
 
@@ -45,7 +45,10 @@ api_version = "2026-07"
   topics = [ "app/scopes_update" ]
 
 [auth]
-redirect_urls = [ "https://example.com/api/auth" ]
+redirect_urls = [
+  "https://announcement-banner-app-yi77.onrender.com/auth/callback",
+  "https://announcement-banner-app-yi77.onrender.com/auth/shopify/callback"
+]
 
 [build]
 automatically_update_urls_on_dev = true
